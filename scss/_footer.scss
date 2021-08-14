@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    
+}
+.caja2 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+}   
+.caja2 a {
+    margin: 8px;
+}
+.caja3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgba(232, 161, 238, 0.836);
+    left: 3px;
+}
+ul li {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logoFooter {
+    width: 30px;
+    height: auto;
+    float: center;
+}
+.logoFooter:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    
+}
+body {
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-color: rgba(24, 22, 24, 0.836);
+    opacity: 0.8;
+    }
+a {
+    text-decoration: none;
+    color: rgba(232, 161, 238, 0.836);
+    font-family: italic;
+}

@@ -1,0 +1,46 @@
+@import "generales";
+@import "contenedor";
+@import "footer";
+@import "menu";
+@import "texto";
+@import "carouselAcc";
+@import "noti";
+
+
+.fondoSection {
+    margin: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: rgba(83, 82, 82, 0.253);
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto auto auto auto;
+
+}
+.mainUno {
+    background-color: rgba(83, 82, 82, 0.253);
+    opacity: 0.9;
+    padding: 30px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto auto;
+}
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    body {
+        width: 100%;}
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    body {
+    width: 100%;}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+    width: 90%;}
+}

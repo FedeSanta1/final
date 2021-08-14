@@ -1,0 +1,35 @@
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.contenedor {
+    width: 100%;
+    min-height: calc(100vh - 100px - 100px);
+}
+.contenedor div{
+    background-color:  rgba(116, 47, 122, 0.836);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    transition: infinite;
+}
+.contenedor div:hover {
+    transform: scale(1.1);
+}
+.imagenesIndex {
+    width: 400px;
+    height: 300px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+
+}
+.videoTamaño {
+    width: 600px;
+}
+.contAcc {
+    margin-top: 25px;
+}

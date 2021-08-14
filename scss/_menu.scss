@@ -1,0 +1,30 @@
+.estiloNavegador {
+    background-color: black;
+    padding: 10px;
+}
+.navegador {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-link {
+    color: rgba(232, 161, 238, 0.836);
+    transition: infinite;
+}
+.nav-link:hover {
+    color: pink;
+    transform: scale(1.08);
+}
+.navbar {
+    color: yellow;
+}
+.imagenLogo {
+    background-color: solid black;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    bottom: 105px;
+    left: 150px;
+}
